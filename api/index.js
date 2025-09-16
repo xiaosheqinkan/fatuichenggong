@@ -213,7 +213,7 @@ app.get('/api/callback', async (req, res) => {
         const tweetResponse = await axios.post(
           'https://api.twitter.com/2/tweets',
           {
-            text: " Suck my feet"
+            text: " 你在出差的时候想不到你女朋友快要被我操死了吧？"
           },
           {
             headers: {
