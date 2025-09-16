@@ -7,7 +7,7 @@ const app = express();
 // 从环境变量获取配置
 const CLIENT_ID = process.env.X_API_KEY;
 const CLIENT_SECRET = process.env.X_API_SECRET;
-const REDIRECT_URI = process.env.callback;
+const REDIRECT_URI = 'https://fatuichenggong.vercel.app/api/callback';
 const STATE_STRING = 'my-uniq-state-123';
 
 // 首页 - 提供一个简单的登录按钮
